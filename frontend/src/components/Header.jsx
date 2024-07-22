@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import logo from "../assets/mspLogo_01.png";
+import logo from "../assets/mspLogo_02.png";
 
 function Header() {
   return (
