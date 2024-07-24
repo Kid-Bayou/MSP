@@ -20,27 +20,28 @@ function Footer() {
               <p>instagram</p>
             </div>
           </div>
+
           <div className="footer-section">
-            <p className="footer-two-p">Our Services</p>
-            <Link>Import Export</Link>
-            <Link>Property Management</Link>
+            <p className="footer-header">Our Services</p>
+            <Link className="footer-link">Import Export</Link>
+            <Link className="footer-link">Property Management</Link>
           </div>
+
           <div className="footer-section">
-            <p className="footer-two-p">Expolore More</p>
-            <Link>About</Link>
-            <Link>Contact Us</Link>
-            <Link>Blog</Link>
+            <p className="footer-header">Expolore More</p>
+            <Link className="footer-link">About</Link>
+            <Link className="footer-link">Contact Us</Link>
+            <Link className="footer-link">Blog</Link>
           </div>
+
           <div className="footer-section">
-            <div className="footer-two-row">
-              <p className="footer-two-p">Contact Details</p>
+              <p className="footer-header">Contact Details</p>
               <p>contact@msptradingplc.com</p>
               <p>+251 944742181</p>
               <p>+251 911611047</p>
               <p className="footer-two-n">
                 Shimekit Commercial Center 5th Floor 131A Addis Ababa Ethiopia
               </p>
-            </div>
           </div>
         </div>
         <hr className="footer-line" />
