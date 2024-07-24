@@ -43,11 +43,11 @@
 
 /** ~~~~~~~~~~~~~ FOOTER ~~~~~~~~~~~~~ **/
 .footer {
-    height: 390px;
+    height: 450px;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
-    gap: 60px;
+    gap: 10px;
     padding-left: 120px;
     padding-right: 120px;
     background-color: #0678BE;
@@ -56,6 +56,8 @@
   .footer-first-part {
     display: flex;
     justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
   }
   
   .footer-section {
@@ -64,59 +66,43 @@
     width: 30%;
     justify-content: center;
   }
-  
-  .footer-logo {
-    width: 180px;
-    margin-bottom: 20px;
+
+  .footer-header {
+    color: #FFFF;
   }
-  
-  .footer-links {
+
+  .footer-text {
+    color: #FFFF;
+  }
+
+  .footer-socials {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+  }
+
+  .footer-socials-icons {
+    width: 40px;
   }
   
   .footer-link {
     font-size: 16px;
     text-decoration: none;
     color: #FFFF;
-  
-    font-family: "Poppins", sans-serif;
     font-weight: 500;
     font-size: 15;
   
   }
   
   .footer-line {
-    color: red;
+    background-color: #FFFF;
+    width: 1700px;
   }
-  
-  .footer-two-row {
-    display: flex;
-    flex-direction: column;
-    align-items: self-start;
-  }
-  
-  .footer-two-p {
-    font-family: "Mulish", sans-serif;
-    font-weight: 400;
-    font-size: 10px;
-   color: #232929;
-  }
-  
-  .footer-two-n {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-  }
-  
-  .footer-second-part {
-    display: flex;
-  }
-  
+
   .footer-copyright {
     font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-size: 14px;
+    color: #FFFF
   }
   

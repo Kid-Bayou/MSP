@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
 
-import logo from "../assets/mspLogo_01.png";
+import twitter from "../assets/twitter.svg";
+import instagram from "../assets/instagram.svg";
+import facebook from "../assets/facebook.svg";
 
 function Footer() {
   return (
@@ -15,31 +17,31 @@ function Footer() {
               text Text text text Text text text Text text text
             </p>
             <div className="footer-socials">
-              <p>twitter</p>
-              <p>facebook</p>
-              <p>instagram</p>
+              <img src={facebook} className="footer-socials-icons" />
+              <img src={instagram} className="footer-socials-icons" />
+              <img src={twitter} className="footer-socials-icons" />
             </div>
           </div>
 
           <div className="footer-section">
-            <p className="footer-header">Our Services</p>
+            <h2 className="footer-header">Our Services</h2>
             <Link className="footer-link">Import Export</Link>
             <Link className="footer-link">Property Management</Link>
           </div>
 
           <div className="footer-section">
-            <p className="footer-header">Expolore More</p>
+            <h2 className="footer-header">Explore More</h2>
             <Link className="footer-link">About</Link>
             <Link className="footer-link">Contact Us</Link>
             <Link className="footer-link">Blog</Link>
           </div>
 
           <div className="footer-section">
-              <p className="footer-header">Contact Details</p>
-              <p>contact@msptradingplc.com</p>
-              <p>+251 944742181</p>
-              <p>+251 911611047</p>
-              <p className="footer-two-n">
+              <h2 className="footer-header">Contact Details</h2>
+              <p className="footer-text">contact@msptradingplc.com</p>
+              <p className="footer-text">+251 944742181</p>
+              <p className="footer-text">+251 911611047</p>
+              <p className="footer-text">
                 Shimekit Commercial Center 5th Floor 131A Addis Ababa Ethiopia
               </p>
           </div>
